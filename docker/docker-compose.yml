@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  openclaw:
+    build: .
+    ports:
+      - "18789:18789"
+    restart: unless-stopped
